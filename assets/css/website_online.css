@@ -373,8 +373,10 @@ body {
 
 .recipients-section {
   width: 350px;
+  height: 480px;
   padding: 25px;
   background: var(--white);
+  overflow-y: scroll;
 }
 
 .modal-body .form-group {
