@@ -548,6 +548,11 @@ body {
   flex: 1;
 }
 
+.reviewer-info-box {
+  display: flex;
+  align-items: center;
+}
+
 .reviewer-name {
   font-weight: 500;
   color: var(--grey);
@@ -600,7 +605,10 @@ body {
   display: flex;
   gap: 10px;
 }
-
+.searc-box-btns {
+  display: flex;
+  justify-content: space-between;
+}
 .btn-send {
   background: var(--btn);
   color: var(--white);
@@ -652,4 +660,39 @@ body {
 .input-spiner-box {
   display: flex;
   gap: 20px;
+}
+.search-back-btn {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.result-card {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: none;
+  background-color: #fff;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+}
+
+.reviewer-text {
+  flex: 1;
+}
+
+.reviewer-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
