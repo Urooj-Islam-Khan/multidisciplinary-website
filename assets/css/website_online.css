@@ -656,7 +656,11 @@ body {
   background: var(--primary-color);
   color: var(--white);
 }
-
+#sug-tab-area,
+#rev-tab-area {
+  overflow-y: scroll;
+  height: 300px;
+}
 .input-spiner-box {
   display: flex;
   gap: 20px;
