@@ -549,7 +549,16 @@ body {
   flex-direction: column;
   flex: 1;
 }
+.reviewer-search {
+  display: flex;
+  flex: 1;
+  gap: 15px;
+}
 
+.reviewer-search-content {
+  width: 55%;
+  margin-right: 20px;
+}
 .reviewer-info-box {
   display: flex;
   align-items: center;
